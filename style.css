@@ -1,0 +1,178 @@
+.top-navbar {
+  background-color: #d32f2f; 
+  color: white;
+  padding: 5px 0;
+}
+.top-navbar .nav-link {
+  color: white;
+  margin-right: 10px;
+}
+.main-navbar {
+  padding: 10px 0;
+}
+.btn-pay {
+  background-color: #000;
+  color: white;
+  border-radius: 5px;
+}
+
+.nav a{
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav a:hover{
+  background-color: #d32f2f;
+  color: #000;
+}
+
+#main-nav{
+  padding:0;
+}
+
+#main{
+  height: 60px;
+  padding:0;
+}
+
+.content-div{
+  width: 50%;
+}
+
+.image{
+  height: 100%;
+  width: 100%;
+}
+
+img{
+  width: 100%;
+}
+
+#top-nav{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 150px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.global-leaders{
+  height: 40%;
+  width: 47%;
+  margin-right: 10px;
+  
+}
+
+.what-we-are{
+  margin-left: 50px;
+  width: 50%;
+}
+
+.trending{
+  gap: 50px;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.card a{
+  margin-left: 75px;
+}
+
+#list{
+  margin-left: 0px;
+}
+#list ul li{
+  padding: 5px;
+}
+
+#contacts ul li, p{
+  font-size: 12px;
+}
+
+#what{
+  color: rgb(34, 34, 132);
+}
+
+@media (max-width: 1160px) {
+  .global-leaders{
+    width: 90%;
+    height: 20%;
+  }
+
+  #top-nav{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container-fluid{
+    display: flex;
+    width: 600px;
+    
+  }
+
+  #main-nav{
+    height: 30%;
+    padding: 0;
+  }
+
+  #main{
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+    
+  }
+  .nav{
+    width: 100% ;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 560px){
+ .data{
+  flex-direction: column;
+ }
+ 
+ .content-div{
+  width: 100%;
+ }
+
+ .what-we-are{
+  width: 100%;
+  justify-content: center;
+  margin-left: 0;
+  margin-top: 20px;
+ }
+
+ .an{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .en{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+ }
+ 
+ #top-nav{
+  justify-content: center;
+  width: 100%;
+ }
+ .banner-image {
+  width: 100%; /* Make the image responsive to the full width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover ensures the image fills the area without distortion */
+}  
+
+ 
+}
